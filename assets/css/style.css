@@ -170,15 +170,33 @@ table {
 }
 
 @media only screen and (max-width: 980px) {
-    body {
-        
+    header {
+        width: 100%;
+    }
+    h1 {
+        margin-left: 4%;
+    }
+    .links {
+        margin-right: 4%;
+    }
+    section {
+        width: 92%;
+        height: inherit;
+    }
+    .port {
+        margin-right: 25px;
+    }
+    #text, #text2, #message {
+        width: 100%;
+    }
+    #message {
+        height: 150px;
     }
 }
 
 @media only screen and (max-width: 768px) {
     header {
         width: auto;
-        
     }
     h1 {
         height: auto;
@@ -192,11 +210,8 @@ table {
         width: 95%;
         height: auto;
     }
-    /* table, td, tr {
-        display: block;
-    } */
     .port {
-        margin-right: 40px;
+        margin-right: 15px;
     }
     #text, #text2, #message {
         width: 100%;
